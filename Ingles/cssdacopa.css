@@ -1,0 +1,306 @@
+  *{
+    margin: auto;
+}
+.mobile{
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   
+}
+ 
+
+header,main,footer,nav, iframe{
+    width: 800px;
+}
+header, nav, .marca, .mobcoisas, .col1,.col2, .aba{
+    display: flex;
+    
+}
+
+.logo, .slogan{
+    height: 150px;
+    border: solid 1px black;
+    
+}
+.logo{
+    background-image: url(https://upload.wikimedia.org/wikipedia/pt/9/96/CopaDoBrasil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 42%;
+    border-right: 0px;
+}
+.slogan{
+    width: 58%;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    color: #41268D;
+    border-left: 0px;
+}
+.slogan h1{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.aba{
+    width:200px;
+    height:50px ;
+    align-items: center;
+    transition: ease-in .2s ;
+}
+nav{
+    height: 50px;
+    align-items: center;
+    background-color: #80ec4d;
+    font-weight: 900;
+    cursor: pointer;
+}
+.pcmenu{
+    margin:0;
+    margin-bottom: 20px;
+    background-color: white;
+    position: relative;
+    display: none;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    padding-right: 60px;
+    width: 98px;
+    border: solid black 1px;
+    list-style-type: none;
+    transition: 1s;
+}
+.mobmenu {
+    list-style-type: none;
+    margin-left: 60px;
+    display: none;
+}
+
+li{
+    margin-right: 70px;
+    width: 143px;
+    height: 30px;
+    padding-top: 10px;
+    border-bottom: gray solid 1px;
+    align-items: center;
+    font-family: 'poppins','sans-serif';
+    font-weight: 500;
+    
+}
+
+.texto{
+    display: flex;
+    flex:1
+}
+#mjogos{
+    margin-top: 25px;
+}
+.Times, .Jogos, .Campeoes, .Idiomas{
+    flex-direction: column;
+}
+nav .aba:hover{
+    background-color: #34eb3d;
+}
+h1,p{
+    font-family: 'poppins','sans-serif';
+    font-weight: 200;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main, iframe{
+    background-color: #d9d9d9;
+    height: 480px;
+}
+ .dia{
+    color: #41268D;
+    padding-left: 20px;
+}
+.mobjogo{
+    margin-left: 50px;
+}
+.mobjogo p{
+    width:max-content;
+    padding-left: 30px;
+}
+.col2{
+    margin-top: 150px ;
+}
+.jogo{
+    width: 250px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    margin-top: 10px;
+    
+}
+.jogo p{
+    text-align: center;
+    font-weight: 600;
+}
+.jogo img{
+    transition: 1s;
+    
+}
+.jogo img:hover{
+    scale: 1.025;
+}
+footer{
+    background-color: #163bbf;
+    height: 107px;
+    
+}
+.redes{
+    color: #d9d9d9;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+.fa-brands{
+    color: #d9d9d9;
+    font-size: 25px;
+    transition: 1s;
+}
+.fa-brands:hover{
+    scale: 1.1;
+}
+.fa-instagram{
+    margin-left: 250px;
+}
+.fa-facebook, .fa-twitter{
+    margin-left: 10px;
+}
+.marca{
+    padding-top: 25px;
+    color: azure;
+    
+}
+.eu{
+    margin-right:650px;
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+    }
+    .tudo{
+        display: block;
+    }
+    header{
+        width: 80%;
+        
+    }
+    .logo{
+        width: 100%;
+  
+      
+        border: none;
+    }    
+    .slogan, .fora, nav{
+        display: none;
+    }
+    .mobmain{
+        display: flex;
+    }
+
+    main, iframe{
+        height: 445px;
+        width: 320px;
+    }
+    .mobile{
+        position: relative;
+        display: block;
+        width: 20%;
+        height: 600px;
+        background-color: green;
+        transition: 1s;
+        z-index: 2;
+        overflow: hidden;
+    }
+    .mobile.expandir{
+        width: 80%;
+    }
+    .mobcoisas{
+       
+        margin-left: 82px;
+        display: none;
+        align-items: center;
+        
+        padding-top: 5px;
+        color: #d9d9d9;
+    }
+    li a{
+        color: rgb(221, 212, 212);
+    }
+    .fa-bars{
+        margin-top: 80px;
+        margin-left: 15px;
+        size: large;
+        color: azure;
+        font-size: 60px;
+    }
+    .normal{
+        width: 70%;
+        position: absolute;
+        left: 20%;
+        z-index: 0;
+        transition: 1s;
+    }
+    .mobjogo{
+        width:200px;
+        height:50px;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-size: 15px;
+        
+    }
+    .jogo3{
+        margin-top: 10px;
+    }
+    .mobjogo img{
+        width: 200px;
+        ;
+    }
+    .mobjogo p{
+        padding-left:10px
+    }
+    footer{
+        height:90px;
+        width: 100%;
+        z-index: 1;
+    }
+    .redes i{
+        font-size: 19px;
+        
+    }
+    .fa-instagram{
+        margin-left: 150px;
+    }
+    .eu{
+        padding-left: 20px;
+        padding-top: 15px;
+        font-size: 10px;
+       
+        width: 30%;
+    }
+    .marca {
+        font-size: 10px;
+        padding-top: 10px;
+        width: 0%;
+        height: 10px;
+        margin-right: 10px;
+    }
+    iframe h1{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .redes p{
+        font-size: 10px;
+    }
+    
+    
+} 
+

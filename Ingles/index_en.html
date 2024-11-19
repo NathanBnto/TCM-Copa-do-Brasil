@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/99451e1fb0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cssdacopa.css">
+    <link rel="shortcut icon" type="imagex/png" href="../copaicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Copa do Brasil</title>
+</head>
+
+<body>
+    <div class="tudo">
+        <div class="mobmain">
+            <div class="mobile" id="mobile">
+                <i class=" fa-sharp fa-solid fa-bars" id ="btn-exp" onclick="menumobile()"></i>
+                <div class="Times" onclick="mostratimesmob()">
+                    <div  class="texto mobcoisas">
+                      <p>Teams</p>
+                      <i class=" timesicon aba fa-solid fa-caret-down"></i>
+                    </div>
+                    <ul class="mobmenu" id="menutimes">
+                        <li>
+                            <a href="flamengo_en.html" target="principal" o onclick="fechamenu()">Flamengo</a>
+                        </li>
+                        <li>
+                            <a href="vasco_en.html" target="principal" onclick="fechamenu()">Vasco</a>
+                        </li>
+                        <li>
+                            <a href="galo_en.html" target="principal" onclick="fechamenu()">Atlético-MG</a>
+                        </li>
+                        <li>
+                            <a href="times_en.html" target="principal" onclick="fechamenu()">Others</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Jogos" onclick="mostrajogosmob()">
+                    <div class="texto mobcoisas">
+                        <p>Games</p>
+                        <i class=" timesicon aba fa-solid fa-caret-down"></i>
+                    </div>
+                    <ul class="mobmenu" id="menujogos">
+                        <li>
+                            <a href="oitavas_en.html" target="principal" onclick="fechamenu()">Rounds of 16</a>
+                        </li>
+                        <li>
+                            <a href="quartas_en.html" target="principal" onclick="fechamenu()">Quarter Finals</a>
+                        </li>
+                        <li>
+                            <a href="semi_en.html" target="principal" onclick="fechamenu()">Semi-Finals</a>
+                        </li>
+                        <li>
+                            <a href="final_en.html" target="principal" onclick="fechamenu()">Finals</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Campeoes" onclick="mostracampsmob()">
+                    <div class="texto mobcoisas">
+                        <p>Champions</p>
+                        <i class=" timesicon aba fa-solid fa-caret-down"></i>
+                    </div>
+                    <ul class="mobmenu" id="menucamps">
+                        <li>
+                            <a href="cruzeiro_en.html" target="principal" onclick="fechamenu()">Cruzeiro</a>
+                        </li>
+                        <li>
+                            <a href="gremio_en.html" target="principal" onclick="fechamenu()">Gremio</a>
+                        </li>
+                        <li>
+                            <a href="flamengo_en.html" target="principal" onclick="fechamenu()">Flamengo</a>
+                        </li>
+                        <li>
+                            <a href="campeoes_en.html" target="principal" onclick="fechamenu()">Outros</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class ="Idiomas" onclick="mostraidiomasmob()">
+                <div class="texto mobcoisas">
+                    <p>Languages</p>
+                    <i class=" timesicon aba fa-solid fa-caret-down"></i>
+                </div>
+                <ul class="mobmenu" id="menuidioma">
+                    <li>
+                        <a href="../index.html" onclick="fechamenu()">Português-BR</a>
+                    </li>
+                    <li>
+                        <a href="index_en.html" onclick="fechamenu()">Inglês</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="normal" id="normal">
+                <header>
+                
+                    <div class="logo" id="logo">
+
+                    </div>
+                    
+                    <div class="slogan" id="slogan">
+                    <a href="abertura_en.html" target="principal" style="color: #41268D;"><h1>The most wanted cup in Brazil</h1></a>
+                    </div>
+                </header>
+                <nav>
+
+                    <div class="aba Times" onmouseover="mostratimes()" onmouseleave="somecoisa()">
+                        <div style="margin-left: 40px;" class="texto">
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<p>Teams</p>
+                            <i class=" timesicon aba fa-solid fa-caret-down"></i>
+                        </div>
+                        <ul class="pcmenu" id="mtimes">
+                            <li>
+                                <a href="flamengo_en.html" target="principal">Flamengo</a>
+                            </li>
+                            <li>
+                                <a href="vasco_en.html" target="principal">Vasco</a>
+                            </li>
+                            <li>
+                                <a href="galo_en.html" target="principal">Atlético-MG</a>
+                            </li>
+                            <li>
+                                <a href="times_en.html" target="principal">Others</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aba Jogos" onmouseover="mostrajogos()" onmouseleave="somecoisa()">
+                        <div class="texto" id="textojogo">
+                        <p>Games</p>
+                        <i id ="jogosicon"class="fa-solid fa-caret-down"></i> &nbsp; &nbsp;
+                        </div>
+                        <ul class="pcmenu" id="mjogos">
+                            <li>
+                                <a href="oitavas_en.html" target="principal">Rounds of 16</a>
+                            </li>
+                            <li>
+                                <a href="quartas_en.html" target="principal">Quarter Finals</a>
+                            </li>
+                            <li>
+                                <a href="semi_en.html" target="principal">Semi-Finals</a>
+                            </li>
+                            <li>
+                                <a href="final_en.html" target="principal">Finals</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aba Campeoes" onmouseover="mostracamps()" onmouseleave="somecoisa()">
+                        <div class="texto" id ="textocamps">
+                        <p>Champions</p>
+                        &nbsp;<i id="campeoesicon" class="fa-solid fa-caret-down"></i> &nbsp; &nbsp;
+                        </div>
+                        <ul class="pcmenu" id="mcamps">
+                            <li>
+                                <a href="cruzeiro_en.html" target="principal">Cruzeiro</a>
+                            </li>
+                            <li>
+                                <a href="gremio_en.html" target="principal">Gremio</a>
+                            </li>
+                            <li>
+                                <a href="flamengo_en.html" target="principal">Flamengo</a>
+                            </li>
+                            <li>
+                                <a href="campeoes_en.html" target="principal">Others</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aba Idiomas" onmouseover="mostraidiomas()" onmouseleave="somecoisa()">
+                        <div class="texto" id ="textoidioma">
+                        <p style="margin-left: 60px;">Languages</p>
+                        <i class="fa-solid fa-caret-down" style="margin-right: 60px;"></i> &nbsp; &nbsp;
+                        </div>
+                        <ul class="pcmenu" id="midiomas">
+                            <li>
+                                <a href="../index.html">Portuguese-BR</a>
+                            </li>
+                            <li>
+                                <a href="index_en.html">English</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <main>
+                    <iframe src="abertura_en.html" name="principal"></iframe>
+                </main>
+            </div>
+        </div>
+        <footer>
+            <div class="redes">
+                <p>Check our social media at:</p>
+                <a href="https://www.instagram.com/copadobrasilcbf/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/copadobrasilcbf/?locale=pt_BR" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/CopaDoBrasilCBF" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="marca">
+                <div class="eu">
+                    <p>By:&nbsp;Nathan&nbsp;Bento</p>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="sript_da_copa_en.js"></script>
+
+</html>
